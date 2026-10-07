@@ -6,15 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class funcionario extends Model
 {
-  {
-    protected $table = 'card';
+  
+    protected $table = 'funcionario';
 
     protected $fillable = [
-            'nome'
-            'email'
+            'nome',
+            'email',
             'senha'
             
 
-    ]
-}
+    ];
+
 }

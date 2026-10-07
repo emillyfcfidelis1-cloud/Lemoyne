@@ -5,14 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 
 class coluna extends Model
-{{
-    protected $table = 'card';
+{
+    protected $table = 'coluna';
 
     protected $fillable = [
-            'descricao'
-            
+            'descricao'];
+}
+    
 
-    ]
-}
-    //
-}
